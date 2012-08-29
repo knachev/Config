@@ -1,0 +1,13 @@
+#init git 
+git init
+git add filename
+git rm filename
+#add remote 
+git remote add origin git@github.com:knachev/Config.git
+
+#sync from remote
+git pull git@github.com:knachev/Config.git
+
+git commit -m 'first commit'
+
+git push  
